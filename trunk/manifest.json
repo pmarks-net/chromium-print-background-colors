@@ -2,7 +2,8 @@
   "name": "Print Background Colors",
   "manifest_version": 2,
   "version": "1.0",
-  "description": "Enables printing of background colors and images, by injecting \"-webkit-print-color-adjust:exact\" into the CSS of every page.  Uncheck \"Enabled\" to turn it off.",
+  "description": "Enables printing of background colors and images.  This works by injecting {-webkit-print-color-adjust:exact} into every page's CSS.  Printed backgrounds sometimes look terrible, so just uncheck \"Enabled\" whenever you want to revert to the default behavior.",
+  "homepage_url": "http://chromium-print-background-colors.googlecode.com/",
   "icons": {
     "128": "printer.png"
   },
