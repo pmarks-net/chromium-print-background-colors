@@ -1,0 +1,13 @@
+{
+  "name": "Print Background Colors",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Enables printing of background colors and images, by injecting \"-webkit-print-color-adjust:exact\" into the CSS of every page.  Uncheck \"Enabled\" to turn it off.",
+  "icons": {
+    "128": "printer.png"
+  },
+  "content_scripts": [{
+    "matches": [ "<all_urls>" ],
+    "css": [ "inject.css" ]
+  }]
+}
